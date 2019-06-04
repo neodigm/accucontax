@@ -1,2 +1,2 @@
-# accucontact
+# AccuContax
 AccuLynx Contact Landing Page
