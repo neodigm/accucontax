@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://neodigm.github.io/accucontax/dist/img/mstile-150x150.png"/>
+            <square150x150logo src="https://neodigm.github.io/accucontax/dist/mstile-150x150.png"/>
             <TileColor>#da532c</TileColor>
         </tile>
     </msapplication>

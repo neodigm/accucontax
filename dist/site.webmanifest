@@ -3,12 +3,12 @@
     "short_name": "AccuContax",
     "icons": [
         {
-            "src": "https://neodigm.github.io/accucontax/dist/img/android-chrome-192x192.png",
+            "src": "https://neodigm.github.io/accucontax/dist/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://neodigm.github.io/accucontax/dist/img/android-chrome-256x256.png",
+            "src": "https://neodigm.github.io/accucontax/dist/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         }

@@ -1,4 +1,3 @@
 module.exports = {
-  lintOnSave: false,
-  publicPath: ''
+  lintOnSave: false
 };
