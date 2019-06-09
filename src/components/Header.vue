@@ -1,15 +1,16 @@
 <template>
-    <v-toolbar app dark>
+    <v-toolbar app dark class="secondary" height="86px">
       <v-toolbar-title class="headline">
         <h1 class="display-1">
         <span class="font-weight-light">Accu</span>
-        <span class="orange--text font-weight-light">Contax</span>
+        <span class="primary--text font-weight-light">Contax</span>
         </h1>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn fab small color="orange"
+      <v-btn fab small color="primary"
         href="https://github.com/neodigm/accucontax"
-        @click.prevent="sound()">
+        @click.prevent="sound()"
+        aria-label="Github Repo">
         <v-icon>code</v-icon>
       </v-btn>
     </v-toolbar>
