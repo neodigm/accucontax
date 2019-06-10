@@ -1,8 +1,8 @@
 <template>
     <v-card light tile hover color="mx-3 grey lighten-4">
         <v-card-title class="headline font-weight-light info white--text">
-            <v-icon class="white--text" left>home</v-icon>
-            <span>Billing Address</span>
+            <v-icon class="white--text" left>markunread_mailbox</v-icon>
+            <span>Mailing Address</span>
         </v-card-title>
 
 <v-layout justify-center row fill-height wrap>
@@ -36,6 +36,7 @@
 </v-layout>
 
         <v-card-actions fixed>
+            <v-btn small class="info">Same as Billing</v-btn>
             <v-spacer></v-spacer>
             <v-btn icon @click="doShow()">
               <v-icon>{{ show ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
@@ -43,7 +44,7 @@
         </v-card-actions>
         <v-slide-y-transition>
             <v-card-text v-show="show">
-                Please enter your billing address. This is the address known to your bank and creditors. Enter the building number and street name on the first line. All fields are required. See our privacy policy for questions about how we use this information.
+                Please enter your mailing address. This is the address of your home of where you receive your mail. Enter the building number and street name on the first line. All fields are required. See our privacy policy for questions about how we use this information.
             </v-card-text>
         </v-slide-y-transition>
     </v-card>

@@ -26,7 +26,7 @@
           <CardAddBilling />
         </v-flex>
         <v-flex xs12 sm12 md6>
-          <CardAvatar />
+          <CardAddMailing />
         </v-flex>
       </v-layout>
      </form>
@@ -42,6 +42,7 @@ import Footer from './components/Footer.vue';
 import CardAvatar from './components/CardAvatar.vue';
 import CardName from './components/CardName.vue';
 import CardAddBilling from './components/CardAddBilling.vue';
+import CardAddMailing from './components/CardAddMailing.vue';
 
 export default {
   name: 'App',
@@ -51,6 +52,7 @@ export default {
     CardAvatar,
     CardName,
     CardAddBilling,
+    CardAddMailing,
   },
   data() {
     return {

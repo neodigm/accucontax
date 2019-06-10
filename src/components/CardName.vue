@@ -61,7 +61,7 @@ export default {
   methods: {
       doShow(){
           this.show = !this.show;
-          this.playAudioFile( 1 );
+          this.playAudioFile( (this.show) ? 2 : 1 );
       }
   }
 };
