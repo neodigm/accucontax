@@ -7,27 +7,27 @@
 
 <v-layout justify-center row fill-height wrap>
     <v-flex xs12 sm12 md12>
-        <v-text-field
+        <v-text-field v-model="appFields[ STREET_ADDRESS ].value"
         label="* Street Address" hint="Building Number and Street Name"
         box
         ></v-text-field>
     </v-flex>
 
     <v-flex class="field-input__grid--2" xs12 sm12 md4>
-        <v-text-field
+        <v-text-field v-model="appFields[ CITY ].value"
         label="* City"
         box
         ></v-text-field>
     </v-flex>
     <v-flex class="field-input__grid--2" xs12 sm12 md4>
-        <v-select
+        <v-select  v-model="appFields[ STATE ].value"
             :items="usStates"
-            label="State"
+            label="* State"
             box
           ></v-select>
     </v-flex>
     <v-flex class="field-input__grid--2" xs12 sm12 md4>
-        <v-text-field
+        <v-text-field v-model="appFields[ ZIP_CODE ].value"
         label="* Zip-code"
         box
         ></v-text-field>
@@ -55,21 +55,25 @@ export default {
   name: 'CardAddBilling',
   data() {
     return {
+        STREET_ADDRESS : 14, CITY: 15, STATE: 16, ZIP_CODE: 17,
       show: false,
       items: ['Mr.', 'Mrs.', 'Miss', 'Dr.', 'Ms.', 'Prof.', 'Rev.'],
     };
   },
   computed: {
+    appFields() {
+      return this.$store.state.appFields;
+    },
     usStates() {
       return this.$store.state.usStates;
     },
   },
   methods: {
-      doShow(){
-          this.show = !this.show;
-          this.playAudioFile( (this.show) ? 2 : 1 );
-      }
-  }
+    doShow() {
+      this.show = !this.show;
+      this.playAudioFile((this.show) ? 2 : 1);
+    },
+  },
 };
 </script>
 

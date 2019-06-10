@@ -15,10 +15,10 @@
       </v-layout>
       <v-layout justify-center row fill-height wrap my-2>
         <v-flex xs12 sm12 md6>
-          <CardAvatar />
+          <CardEmail />
         </v-flex>
         <v-flex xs12 sm12 md6>
-          <CardAvatar />
+          <CardPhone />
         </v-flex>
       </v-layout>
       <v-layout justify-center row fill-height wrap my-2>
@@ -43,6 +43,8 @@ import CardAvatar from './components/CardAvatar.vue';
 import CardName from './components/CardName.vue';
 import CardAddBilling from './components/CardAddBilling.vue';
 import CardAddMailing from './components/CardAddMailing.vue';
+import CardEmail from './components/CardEmail.vue';
+import CardPhone from './components/CardPhone.vue';
 
 export default {
   name: 'App',
@@ -53,6 +55,8 @@ export default {
     CardName,
     CardAddBilling,
     CardAddMailing,
+    CardEmail,
+    CardPhone,
   },
   data() {
     return {
@@ -69,14 +73,14 @@ export default {
   },
   watch: {
     playSound() {
-      this.playAudioFile( this.playSound );
-    }
+      this.playAudioFile(this.playSound);
+    },
   },
   methods: {
-    setSound(){
-      this.$store.commit("setSound", 3);
-    }
-  }
+    setSound() {
+      this.$store.commit('setSound', 3);
+    },
+  },
 };
 </script>
 

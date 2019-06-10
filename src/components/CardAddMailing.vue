@@ -7,27 +7,27 @@
 
 <v-layout justify-center row fill-height wrap>
     <v-flex xs12 sm12 md12>
-        <v-text-field
+        <v-text-field v-model="appFields[ STREET_ADDRESS ].value"
         label="* Street Address" hint="Building Number and Street Name"
         box
         ></v-text-field>
     </v-flex>
 
     <v-flex class="field-input__grid--2" xs12 sm12 md4>
-        <v-text-field
+        <v-text-field v-model="appFields[ CITY ].value"
         label="* City"
         box
         ></v-text-field>
     </v-flex>
     <v-flex class="field-input__grid--2" xs12 sm12 md4>
-        <v-select
+        <v-select  v-model="appFields[ STATE ].value"
             :items="usStates"
-            label="State"
+            label="* State"
             box
           ></v-select>
     </v-flex>
     <v-flex class="field-input__grid--2" xs12 sm12 md4>
-        <v-text-field
+        <v-text-field v-model="appFields[ ZIP_CODE ].value"
         label="* Zip-code"
         box
         ></v-text-field>
@@ -36,7 +36,8 @@
 </v-layout>
 
         <v-card-actions fixed>
-            <v-btn small class="info">Same as Billing</v-btn>
+            <v-btn small class="info"
+            @click="doCopyAdd()">Same as Billing</v-btn>
             <v-spacer></v-spacer>
             <v-btn icon @click="doShow()">
               <v-icon>{{ show ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
@@ -56,21 +57,33 @@ export default {
   name: 'CardAddBilling',
   data() {
     return {
-      show: false,
-      items: ['Mr.', 'Mrs.', 'Miss', 'Dr.', 'Ms.', 'Prof.', 'Rev.'],
+        STREET_ADDRESS : 10, CITY: 11, STATE: 12, ZIP_CODE: 13,        
+        show: false,
+        items: ['Mr.', 'Mrs.', 'Miss', 'Dr.', 'Ms.', 'Prof.', 'Rev.'],
     };
   },
   computed: {
+    appFields() {
+      return this.$store.state.appFields;
+    },
     usStates() {
       return this.$store.state.usStates;
     },
   },
   methods: {
-      doShow(){
-          this.show = !this.show;
-          this.playAudioFile( (this.show) ? 2 : 1 );
-      }
-  }
+        doCopyAdd(){
+            this.playAudioFile( 4 );
+            for( var i=14; i <= 17; i++){
+                if( this.appFields[ i ].value ){
+                    this.appFields[ (i-4) ].value = this.appFields[ i ].value; 
+                }
+            }
+        },
+        doShow() {
+            this.show = !this.show;
+            this.playAudioFile((this.show) ? 2 : 1);
+        },
+  },
 };
 </script>
 

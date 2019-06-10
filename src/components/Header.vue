@@ -46,28 +46,28 @@ export default {
   data: () => ({
     drawer: false,
     links: [
-      {icon:"launch", text:"Scott C. Krause", route:"https://www.theScottKrause.com/"},
-      {icon:"code", text:"Other Vue.js", route:"https://neodigm.github.io/vue_voyagers/"},
-      {icon:"accessible", text:"On Accessibility", route:"https://www.linkedin.com/pulse/accessibility-ecommerce-scott-krause/"},
+      { icon: 'launch', text: 'Scott C. Krause', route: 'https://www.theScottKrause.com/' },
+      { icon: 'code', text: 'Other Vue.js', route: 'https://neodigm.github.io/vue_voyagers/' },
+      { icon: 'accessible', text: 'On Accessibility', route: 'https://www.linkedin.com/pulse/accessibility-ecommerce-scott-krause/' },
     ],
   }),
   methods: {
     getGit() {
-      this.$store.commit("setSound", 5);
-      setTimeout(function(){
-        window.location.href = "https://github.com/neodigm/accucontax";
+      this.$store.commit('setSound', 5);
+      setTimeout(() => {
+        window.location.href = 'https://github.com/neodigm/accucontax';
       }, 2000);
     },
-    doDrawer(){
+    doDrawer() {
       this.drawer = !this.drawer;
-      this.$store.commit("setSound", (( this.drawer ) ? 6 : 2) );
+      this.$store.commit('setSound', ((this.drawer) ? 6 : 2));
     },
-    doLaunch( sURL ){
-      this.$store.commit("setSound", 4);
-      setTimeout(function(){
+    doLaunch(sURL) {
+      this.$store.commit('setSound', 4);
+      setTimeout(() => {
         window.location.href = sURL;
       }, 2000);
-    }
+    },
   },
 };
 </script>

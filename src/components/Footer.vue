@@ -35,19 +35,19 @@ v-model="snackbar"
 export default {
   data: () => ({
     message: '',
-      snackbar: false,
-      y: 'top',
-      x: null,
-      mode: '',
-      timeout: 5600,
-      text: 'Please enter all required information.'
+    snackbar: false,
+    y: 'top',
+    x: null,
+    mode: '',
+    timeout: 5600,
+    text: 'Please enter all required information.',
   }),
   methods: {
-      doSnack(){
-          this.snackbar = !this.snackbar;
-          this.playAudioFile( 3 );
-      }
-  }
+    doSnack() {
+      this.snackbar = !this.snackbar;
+      this.playAudioFile(3);
+    },
+  },
 };
 </script>
 

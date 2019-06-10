@@ -37,11 +37,11 @@ export default {
     };
   },
   methods: {
-      doShow(){
-          this.show = !this.show;
-          this.playAudioFile( (this.show) ? 2 : 1 );
-      }
-  }
+    doShow() {
+      this.show = !this.show;
+      this.playAudioFile((this.show) ? 2 : 1);
+    },
+  },
 };
 </script>
 
