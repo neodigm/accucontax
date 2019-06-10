@@ -1,6 +1,6 @@
 <template>
     <v-card light tile hover color="mx-3 grey lighten-4">
-        <v-card-title class="headline font-weight-light info white--text">
+        <v-card-title class="title font-weight-light info white--text">
             <v-icon class="white--text" left>home</v-icon>
             <span>Billing Address</span>
         </v-card-title>

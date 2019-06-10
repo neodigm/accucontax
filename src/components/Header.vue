@@ -13,7 +13,7 @@
         <v-tooltip bottom>
         <template v-slot:activator="{ on }">
         <v-btn fab small color="primary" dark v-on="on"
-          href="https://github.com/neodigm/accucontax"
+          href="https://github.com/neodigm/accucontax" target="_blank"
           @click.prevent="getGit()"
           aria-label="Github Repo">
           <v-icon>code</v-icon>
@@ -26,7 +26,17 @@
 
       <v-navigation-drawer app class="info"
       v-model="drawer">
-        <p>test</p>
+        <v-list>
+          <v-list-tile v-for=" link in links" :key="link.text"
+          @click="doLaunch( link.route )">
+            <v-list-tile-action>
+              <v-icon class="white--text">{{ link.icon }}</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title class="white--text subheading">{{ link.text }}</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+        </v-list>
       </v-navigation-drawer>
     </div>
 </template>
@@ -35,6 +45,11 @@
 export default {
   data: () => ({
     drawer: false,
+    links: [
+      {icon:"launch", text:"Scott C. Krause", route:"https://www.theScottKrause.com/"},
+      {icon:"code", text:"Other Vue.js", route:"https://neodigm.github.io/vue_voyagers/"},
+      {icon:"accessible", text:"On Accessibility", route:"https://www.linkedin.com/pulse/accessibility-ecommerce-scott-krause/"},
+    ],
   }),
   methods: {
     getGit() {
@@ -46,6 +61,12 @@ export default {
     doDrawer(){
       this.drawer = !this.drawer;
       this.$store.commit("setSound", (( this.drawer ) ? 6 : 2) );
+    },
+    doLaunch( sURL ){
+      this.$store.commit("setSound", 4);
+      setTimeout(function(){
+        window.location.href = sURL;
+      }, 2000);
     }
   },
 };
