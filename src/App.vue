@@ -1,55 +1,81 @@
 <template>
   <v-app>
-    <Header></Header>
+    <Header />
 
     <v-content>
-
-
    <v-container class="fluid">
-    <v-layout justify-center row fill-height wrap>
-
-      <v-flex xs12 sm12 md6>
-        <CardAvatar></CardAvatar>
-      </v-flex>
-      <v-flex xs12 sm12 md6>
-
-        <v-card light tile hover color="mx-3 grey lighten-4" min-height="256px">
-          <v-card-title class="info white--text">
-            <v-icon left>account_circle</v-icon>
-            <span>Avatar | Selfie</span>
-          </v-card-title>
-          <v-card-text>#a</v-card-text>
-          <v-btn class="primary" >Click me</v-btn>
-        </v-card>
-      </v-flex>
-
-    </v-layout>
+     <form autocomplete="off" novalidate="novalidate">
+      <v-layout justify-center row fill-height wrap my-2>
+        <v-flex xs12 sm12 md6>
+          <CardAvatar />
+        </v-flex>
+        <v-flex xs12 sm12 md6>
+          <CardName />
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center row fill-height wrap my-2>
+        <v-flex xs12 sm12 md6>
+          <CardAvatar />
+        </v-flex>
+        <v-flex xs12 sm12 md6>
+          <CardAvatar />
+        </v-flex>
+      </v-layout>
+      <v-layout justify-center row fill-height wrap my-2>
+        <v-flex xs12 sm12 md6>
+          <CardAddBilling />
+        </v-flex>
+        <v-flex xs12 sm12 md6>
+          <CardAvatar />
+        </v-flex>
+      </v-layout>
+     </form>
    </v-container>
-
-      <v-btn class="primary" >Click me</v-btn>
     </v-content>
     <Footer></Footer>
   </v-app>
 </template>
 
 <script>
-import Header from './components/Header'
-import Footer from './components/Footer'
-import CardAvatar from './components/CardAvatar'
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
+import CardAvatar from './components/CardAvatar.vue';
+import CardName from './components/CardName.vue';
+import CardAddBilling from './components/CardAddBilling.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Footer,
-    CardAvatar
+    CardAvatar,
+    CardName,
+    CardAddBilling,
   },
-  data () {
+  data() {
     return {
       //
+    };
+  },
+  computed: {
+    appFields() {
+      return this.$store.state.appFields;
+    },
+    playSound() {
+      return this.$store.state.playSound;
+    },
+  },
+  watch: {
+    playSound() {
+      this.playAudioFile( this.playSound );
+    }
+  },
+  methods: {
+    setSound(){
+      this.$store.commit("setSound", 3);
     }
   }
-}
+};
 </script>
 
 <style>

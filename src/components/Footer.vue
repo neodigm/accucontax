@@ -16,11 +16,11 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      message: ""
-    })
-  }
+export default {
+  data: () => ({
+    message: '',
+  }),
+};
 </script>
 
 <style>

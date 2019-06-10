@@ -9,7 +9,7 @@
       <v-spacer></v-spacer>
       <v-btn fab small color="primary"
         href="https://github.com/neodigm/accucontax"
-        @click.prevent="sound()"
+        @click.prevent="getGit()"
         aria-label="Github Repo">
         <v-icon>code</v-icon>
       </v-btn>
@@ -17,16 +17,19 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      message: ""
-    }),
-    methods: {
-      sound: () => {
-        console.log("DDDDDDDDDDDDDDDDUUUUUUUUUUUCCCCCCCCCCCCCKKKKKKKKKKKKK");
-      }
-    }
-  }
+export default {
+  data: () => ({
+    message: '',
+  }),
+  methods: {
+    getGit() {
+      this.$store.commit("setSound", 5);
+      setTimeout(function(){
+        window.location.href = "https://github.com/neodigm/accucontax";
+      }, 2000);
+    },
+  },
+};
 </script>
 
 <style>
