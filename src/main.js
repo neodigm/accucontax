@@ -17,7 +17,7 @@ if (AudioContext) {
   var oAudContx = new AudioContext(); //    HTML5 Audio
   var oAJAXReq = new XMLHttpRequest(); //    Get Sounds
   var aAudioBuffer = new Array(8); //    Store Sound files
-  var fetchSoundConfig = { sound_max: 7, sound_current: 1 }; //    Sound limits
+  var fetchSoundConfig = { sound_max: 18, sound_current: 1 }; //    Sound limits
   setTimeout(() => { fetchSound(); }, 4800);
 }
 function fetchSound() {
@@ -42,6 +42,7 @@ function fetchSoundonload() {
 function playAudioFile(nSound) {
   if (CnfState.audio === true) { //  Play MP3 if sound toggle is true
     try {
+      nSound = nSound + 8;  //  MD offset
       const oSrc = oAudContx.createBufferSource();
       const volume = oAudContx.createGain();
       oSrc.buffer = aAudioBuffer[nSound];

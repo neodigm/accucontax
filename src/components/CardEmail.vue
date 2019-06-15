@@ -63,7 +63,7 @@ export default {
   },
   methods: {
         doAddAnother(){
-            this.playAudioFile( 4 );
+            this.playAudioFile( 5 );
             this.aItems.push( {item:"", primary:false, delete:false} );
         },
         doShow() {
@@ -71,12 +71,12 @@ export default {
             this.playAudioFile((this.show) ? 2 : 1);
         },
         doPrimary( oItem ){
-            this.playAudioFile( 4 );
+            this.playAudioFile( 6 );
             this.aItems.map(function( it ){ it.primary = false; });
             oItem.primary = true;
         },
         doDelete( oItem ){
-            this.playAudioFile( 4 );
+            this.playAudioFile( 7 );
             oItem.delete = true;
         }
   },

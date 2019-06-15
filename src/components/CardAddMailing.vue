@@ -72,7 +72,7 @@ export default {
   },
   methods: {
         doCopyAdd(){
-            this.playAudioFile( 4 );
+            this.playAudioFile( 5 );
             for( var i=14; i <= 17; i++){
                 if( this.appFields[ i ].value ){
                     this.appFields[ (i-4) ].value = this.appFields[ i ].value; 

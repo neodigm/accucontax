@@ -78,7 +78,7 @@ export default {
   },
   methods: {
     setSound() {
-      this.$store.commit('setSound', 3);
+      this.$store.commit('setSound', 4);
     },
   },
 };
