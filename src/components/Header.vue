@@ -49,6 +49,8 @@ export default {
       { icon: 'launch', text: 'Scott C. Krause', route: 'https://www.theScottKrause.com/' },
       { icon: 'code', text: 'Other Vue.js', route: 'https://neodigm.github.io/vue_voyagers/' },
       { icon: 'accessible', text: 'On Accessibility', route: 'https://www.linkedin.com/pulse/accessibility-ecommerce-scott-krause/' },
+      { icon: 'album', text: 'Gists (Code)', route: 'https://gist.github.com/neodigm' },
+      
     ],
   }),
   methods: {

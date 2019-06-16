@@ -16,7 +16,7 @@ if (AudioContext) {
   CnfState.audio = true; //    Icanuse
   var oAudContx = new AudioContext(); //    HTML5 Audio
   var oAJAXReq = new XMLHttpRequest(); //    Get Sounds
-  var aAudioBuffer = new Array(8); //    Store Sound files
+  var aAudioBuffer = new Array(18); //    Store Sound files
   var fetchSoundConfig = { sound_max: 18, sound_current: 1 }; //    Sound limits
   setTimeout(() => { fetchSound(); }, 4800);
 }
