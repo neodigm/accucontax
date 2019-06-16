@@ -1,0 +1,78 @@
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(112, 111, 112, 0.2);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1c4a6c;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.horz__bar, header, footer {
+  text-align: center;
+  width: 100%;
+  min-height: 76px;
+  border: 1px solid #aab5c3;
+  position: fixed;
+  background: #1c4a6c;
+}
+
+header {
+  top: 0;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(256px, calc(50% - 4px)))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(256px, calc(50% - 4px)));
+  grid-gap: 8px;
+  justify-items: center;
+  margin: 80px 0;
+  min-height: 120vh;
+}
+
+main section.acx-card__quad {
+  background-color: red;
+  border: 1px solid #aab5c3;
+  border-radius: 6px;
+  margin: 4px;
+  padding: 4px;
+  width: 98%;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
+          clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
+  width: 100%;
+}
+
+footer {
+  bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  /* small */
+}
+
+@media only screen and (min-width: 48.1em) and (max-width: 62em) {
+  /* med */
+}
+
+@media only screen and (min-width: 62.1em) {
+  /* lg */
+}
+/*# sourceMappingURL=ax.css.map */
