@@ -1,62 +1,57 @@
-@import "mixins";
-
-$theme_light: (
-    primary: #f4925c,
-    primary-light: lighten(#f4925c, 32%),
-    secondary: #f9b28c,
-    accent: #f8d1be,
-    info: #1c4a6c,
-    warning: #667d96,
-    success: #aab5c3,
-    error: #ee2222,
-);
-
-$fonts: (
-    family: "Roboto Condensed",
-    weight: 300
-);
-
-$desktop: 840px;
-
+@import url('mixins');
 html, body {
+    font-family: theme__type( family );
+    font-weight: theme__type( weight );
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
-    font-family: map-get($fonts, family);
-	font-weight: map-get($fonts, weight);
 }
 .horz__bar {
+    background: theme__day( info );
+    border: 1px solid theme__day( info );
+    min-height: 76px;
+    position: fixed;
     text-align: center;
     width: 100%;
-    min-height: 76px;
-    border: 1px solid map-get($theme_light , info );
-    position: fixed;
-    background: map-get($theme_light , info );
 }
 header {
     @extend .horz__bar;
     top: 0;
-}
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax( 256px, calc(50% - 4px) ));
-    grid-gap: 8px;
-    justify-items: center;
-    margin: 80px 0;
-    min-height: 120vh;
-    section.acx-card__quad {
-        background-color: red;
-        border: 1px solid map-get($theme_light , info );
-        border-radius: 6px;
-        margin: 4px;
-        padding: 4px;
-        width: 98%;
-        clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
-        width: 100%;
+    h1 {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 100;
+        margin: 30px;
+        span {
+            color: theme__day( primary );
+        }
     }
 }
-
 footer {
     @extend .horz__bar;
     bottom: 0px;
+}
+main {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fill,minmax( 256px,96% ));
+    justify-content: space-around;
+    justify-items: center;
+    margin: 80px 0;
+    min-height: 120vh;
+    @include tablet__mq {
+        grid-template-columns: repeat(auto-fill,46%);
+    }
+    @include desktop__mq {
+        grid-template-columns: repeat(auto-fill,22%);
+    }
+}
+article.acx-card__sextuple {
+    border: 1px solid theme__day( primary-light );
+    margin: .6em;
+    padding: .6em;
+    width: 100%;
+    aside {
+        background-color: theme__day( accent );
+    }
 }

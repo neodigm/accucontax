@@ -1,14 +1,40 @@
-@mixin desktop {
+$theme_light: (
+    primary: #f4925c,
+    primary-light: lighten(#f4925c, 24%),
+    secondary: #f9b28c,
+    accent: #f8d1be,
+    info: #1c4a6c,
+    warning: #667d96,
+    success: #aab5c3,
+    error: #ee2222,
+);
+
+$theme_type: (
+    family: "Roboto Condensed",
+    size: 1em,
+    weight: 300
+);
+
+/*    */
+@function theme__day( $color ){
+    @return map-get($theme_light, $color );
+}
+
+@function theme__type( $font ){
+    @return map-get($theme_type, $font );
+}
+
+@mixin desktop__mq {
     @media only screen and (min-width: 62.1em) {
         @content;
     }
 }
-@mixin tablet {
+@mixin tablet__mq {
     @media only screen and (min-width:48.1em) and (max-width:62em) {
         @content;
     }
 }
-@mixin mobile {
+@mixin mobile__mq {
     @media only screen and (max-width:48em) {
         @content;
     }

@@ -1,3 +1,4 @@
+/*    */
 body::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -19,6 +20,7 @@ html, body {
   font-weight: 300;
 }
 
+/*  Header and Footer */
 .horz__bar, header, footer {
   text-align: center;
   width: 100%;
@@ -32,30 +34,56 @@ header {
   top: 0;
 }
 
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(256px, calc(50% - 4px)))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(256px, calc(50% - 4px)));
-  grid-gap: 8px;
-  justify-items: center;
-  margin: 80px 0;
-  min-height: 120vh;
+header h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 30px;
 }
 
-main section.acx-card__quad {
-  background-color: red;
-  border: 1px solid #1c4a6c;
-  border-radius: 6px;
-  margin: 4px;
-  padding: 4px;
-  width: 98%;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
-          clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
-  width: 100%;
+header h1 span {
+  color: #f4925c;
 }
 
 footer {
   bottom: 0px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(256px, 96%))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(256px, 96%));
+  grid-gap: 8px;
+  justify-items: center;
+  margin: 80px 0;
+  min-height: 120vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media only screen and (min-width: 48.1em) and (max-width: 62em) {
+  main {
+    -ms-grid-columns: (46%)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 46%);
+  }
+}
+
+@media only screen and (min-width: 62.1em) {
+  main {
+    -ms-grid-columns: (22%)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 22%);
+  }
+}
+
+article.acx-card__sextuple {
+  border: 1px solid #fcdfcf;
+  margin: .6em;
+  padding: .6em;
+  width: 100%;
+}
+
+article.acx-card__sextuple aside {
+  background-color: #f8d1be;
 }
 /*# sourceMappingURL=ax.css.map */
