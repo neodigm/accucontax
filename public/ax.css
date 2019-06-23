@@ -15,13 +15,15 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
 }
 
 .horz__bar, header, footer {
   text-align: center;
   width: 100%;
   min-height: 76px;
-  border: 1px solid #aab5c3;
+  border: 1px solid #1c4a6c;
   position: fixed;
   background: #1c4a6c;
 }
@@ -43,7 +45,7 @@ main {
 
 main section.acx-card__quad {
   background-color: red;
-  border: 1px solid #aab5c3;
+  border: 1px solid #1c4a6c;
   border-radius: 6px;
   margin: 4px;
   padding: 4px;
@@ -55,24 +57,5 @@ main section.acx-card__quad {
 
 footer {
   bottom: 0px;
-}
-
-@media screen and (max-width: 600px) {
-  main {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 48em) {
-  /* small */
-}
-
-@media only screen and (min-width: 48.1em) and (max-width: 62em) {
-  /* med */
-}
-
-@media only screen and (min-width: 62.1em) {
-  /* lg */
 }
 /*# sourceMappingURL=ax.css.map */

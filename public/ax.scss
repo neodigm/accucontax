@@ -1,5 +1,8 @@
+@import "mixins";
+
 $theme_light: (
     primary: #f4925c,
+    primary-light: lighten(#f4925c, 32%),
     secondary: #f9b28c,
     accent: #f8d1be,
     info: #1c4a6c,
@@ -8,26 +11,25 @@ $theme_light: (
     error: #ee2222,
 );
 
-$brand1_1: #f4925c;
-$brand1_2: #f9b28c;
-$brand1_3: #f8d1be;
-$brand1_4: #1c4a6c;
-$brand1_5: #667d96;
-$brand1_6: #aab5c3;
+$fonts: (
+    family: "Roboto Condensed",
+    weight: 300
+);
 
-@import "mixins";
-
+$desktop: 840px;
 
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: map-get($fonts, family);
+	font-weight: map-get($fonts, weight);
 }
 .horz__bar {
     text-align: center;
     width: 100%;
     min-height: 76px;
-    border: 1px solid $brand1_6;
+    border: 1px solid map-get($theme_light , info );
     position: fixed;
     background: map-get($theme_light , info );
 }
@@ -44,7 +46,7 @@ main {
     min-height: 120vh;
     section.acx-card__quad {
         background-color: red;
-        border: 1px solid $brand1_6;
+        border: 1px solid map-get($theme_light , info );
         border-radius: 6px;
         margin: 4px;
         padding: 4px;
@@ -57,25 +59,4 @@ main {
 footer {
     @extend .horz__bar;
     bottom: 0px;
-}
-
-@media screen and (max-width: 600px){
-main {
-    grid-template-columns: 1fr;
-}
-}
-
-@media only screen and (max-width:48em)
-{
-/* small */
-}
-
-@media only screen and (min-width:48.1em) and (max-width:62em)
-{
-/* med */
-}
-
-@media only screen and (min-width:62.1em)
-{
-/* lg */
 }

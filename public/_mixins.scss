@@ -1,3 +1,19 @@
+@mixin desktop {
+    @media only screen and (min-width: 62.1em) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media only screen and (min-width:48.1em) and (max-width:62em) {
+        @content;
+    }
+}
+@mixin mobile {
+    @media only screen and (max-width:48em) {
+        @content;
+    }
+}
+
 body::-webkit-scrollbar {
     width: 8px;
     height: 8px;
