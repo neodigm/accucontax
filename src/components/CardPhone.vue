@@ -18,7 +18,7 @@ v-for="(item, idx) in aItems" :key="idx"
     <v-flex class="field-input__grid--2" xs6 sm4 md4>
         <v-select
             :items="types"
-            label="Salutation"
+            label="Phone Type"
             box
             ></v-select>
     </v-flex>
