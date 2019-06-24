@@ -68,6 +68,9 @@
                     <input class="h-form__input" type="text" placeholder="* First Name">
                     <input class="h-form__input" type="text" placeholder="* Last Name">
                     <input class="h-form__input" type="text" placeholder="Company">
+                    <div class="h_form__val--error h-vis__show--hidden ">
+                        <h3>Please Enter the First and Last names.</h3>
+                    </div>
                 </div>
             </section>
             <nav>
@@ -109,6 +112,7 @@
                     <div>
                         <input class="h-form__input" type="text" placeholder="* Phone Number">
                         <select class="h-form__select">
+                            <option>Phone Type</option>
                             <option>Work</option>
                             <option>Mobile</option>
                             <option>Home</option>
@@ -134,12 +138,16 @@
             </aside>
             <section>
                 <div>
-                    <input type="text">
-                    <input type="text">
+                    <input class="h-form__input" type="text" placeholder="* Street Address">
+                    <input class="h-form__input" type="text" placeholder="* City">
+                    <select class="h-form__select">
+                            <option>State</option><option>AK Alaska</option><option>AL Alabama</option><option>AR Arkansas</option><option>AZ Arizona</option><option>CA California</option><option>CO Colorado</option><option>CT Connecticut</option><option>DC District of Columbia</option><option>DE Delaware</option><option>FL Florida</option><option>GA Georgia</option><option>HI Hawaii</option><option>IA Iowa</option><option>ID Idaho</option><option>IL Illinois</option><option>IN Indiana</option><option>KS Kansas</option><option>KY Kentucky</option><option>LA Louisiana</option><option>MA Massachusetts</option><option>MD Maryland</option><option>ME Maine</option><option>MI Michigan</option><option>MN Minnesota</option><option>MO Missouri</option><option>MS Mississippi</option><option>MT Montana</option><option>NC North Carolina</option><option>ND North Dakota</option><option>NE Nebraska</option><option>NH New Hampshire</option><option>NJ New Jersey</option><option>NM New Mexico</option><option>NV Nevada</option><option>NY New York</option><option>OH Ohio</option><option>OK Oklahoma</option><option>OR Oregon</option><option>PA Pennsylvania</option><option>PR Puerto Rico</option><option>RI Rhode Island</option><option>SC South Carolina</option><option>SD South Dakota</option><option>TN Tennessee</option><option>TX Texas</option><option>UT Utah</option><option>VA Virginia</option><option>VT Vermont</option><option>WA Washington</option><option>WI Wisconsin</option><option>WV West Virginia</option><option>WY Wyoming</option>
+                    </select>
+                    <input class="h-form__input" type="number" placeholder="* Zip">
                 </div>
             </section>
             <nav>
-                <button>Click me</button>
+ 
             </nav>
         </article>
         <article class="acx-card__sextuple">
@@ -148,13 +156,17 @@
             </aside>
             <section>
                 <div>
-                    <input type="text">
-                    <input type="text">
+                    <input class="h-form__input" type="text" placeholder="* Street Address">
+                    <input class="h-form__input" type="text" placeholder="* City">
+                    <select class="h-form__select">
+                            <option>State</option><option>AK Alaska</option><option>AL Alabama</option><option>AR Arkansas</option><option>AZ Arizona</option><option>CA California</option><option>CO Colorado</option><option>CT Connecticut</option><option>DC District of Columbia</option><option>DE Delaware</option><option>FL Florida</option><option>GA Georgia</option><option>HI Hawaii</option><option>IA Iowa</option><option>ID Idaho</option><option>IL Illinois</option><option>IN Indiana</option><option>KS Kansas</option><option>KY Kentucky</option><option>LA Louisiana</option><option>MA Massachusetts</option><option>MD Maryland</option><option>ME Maine</option><option>MI Michigan</option><option>MN Minnesota</option><option>MO Missouri</option><option>MS Mississippi</option><option>MT Montana</option><option>NC North Carolina</option><option>ND North Dakota</option><option>NE Nebraska</option><option>NH New Hampshire</option><option>NJ New Jersey</option><option>NM New Mexico</option><option>NV Nevada</option><option>NY New York</option><option>OH Ohio</option><option>OK Oklahoma</option><option>OR Oregon</option><option>PA Pennsylvania</option><option>PR Puerto Rico</option><option>RI Rhode Island</option><option>SC South Carolina</option><option>SD South Dakota</option><option>TN Tennessee</option><option>TX Texas</option><option>UT Utah</option><option>VA Virginia</option><option>VT Vermont</option><option>WA Washington</option><option>WI Wisconsin</option><option>WV West Virginia</option><option>WY Wyoming</option>
+                    </select>
+                    <input class="h-form__input" type="number" placeholder="* Zip">
                 </div>
-            </section>
-            <nav>
-                <button>Click me</button>
-            </nav>
+                </section>
+                <nav>
+
+                </nav>
         </article>
     </main>
 
@@ -163,9 +175,25 @@
     </footer>
     <nav>
         <a href="https://neodigm.github.io/accucontax/dist/"
-        style="position: fixed; top: 10px; right: 6px; z-index: 32;">
+        style="position: fixed; top: 10px; right: 6px; z-index: 256;">
             <img src="https://neodigm.github.io/accucontax/public/md.png">
         </a>
     </nav>
+<script>
+    "use strict";  //  Mock form validation error display logic
+    let oD = document;
+    let eMesg = oD.querySelector(".h_form__val--error");
+    let eButn = oD.querySelector(".cta__click");
+    if( eMesg && eButn ){
+        eButn.addEventListener("click", function( ev ){
+            if( eMesg.classList.contains("h-vis__show--hidden") ){
+                eMesg.classList.remove("h-vis__show--hidden");
+                setTimeout(function(){
+                    eMesg.classList.add("h-vis__show--hidden");
+                }, 4200);
+            }
+        });
+    }
+</script>
 </body>
 </html>

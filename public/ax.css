@@ -121,15 +121,22 @@ article.acx-card__sextuple > section {
 
 /*  Call to Action  */
 .cta__click {
+  border: solid 1px #667d96;
+  border-radius: 6px;
   background-color: #f4925c;
   cursor: pointer;
   display: block;
   font-size: 1em;
-  margin: 12px auto;
+  margin: 18px auto 0;
+  padding: 8px 18px;
   text-align: center;
 }
 
 /*  Helpers  */
+.h-vis__show--hidden {
+  display: none;
+}
+
 .h-image__image--cover {
   background-image: url(https://neodigm.github.io/accucontax/dist/avatar.png);
   background-position: center center;
@@ -137,7 +144,7 @@ article.acx-card__sextuple > section {
   background-repeat: no-repeat;
 }
 
-.h-text__caption, header h1, article.acx-card__sextuple aside h2, .cta__click {
+.h-text__caption, header h1, article.acx-card__sextuple aside h2, .cta__click, .h_form__val--error h3 {
   color: #fff;
   font-weight: 100;
 }
@@ -187,7 +194,6 @@ article.acx-card__sextuple > section {
 }
 
 .h-form__select:focus {
-  border-color: #888888;
   -webkit-box-shadow: 0 0 1px 3px rgba(158, 118, 119, 0.6);
           box-shadow: 0 0 1px 3px rgba(158, 118, 119, 0.6);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
@@ -221,5 +227,19 @@ article.acx-card__sextuple > section {
 
 .h-form__grid--icons svg:hover {
   fill: #1c4a6c;
+}
+
+.h_form__val--error {
+  background-color: #ee2222;
+  border: solid 2px #f4925c;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 6px 0;
+  padding: 2px;
+  text-align: center;
+}
+
+.h_form__val--error h3 {
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=ax.css.map */
