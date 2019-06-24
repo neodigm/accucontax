@@ -1,81 +1,100 @@
-$theme_light: (
-    primary: #f4925c,
-    secondary: #f9b28c,
-    accent: #f8d1be,
-    info: #1c4a6c,
-    warning: #667d96,
-    success: #aab5c3,
-    error: #ee2222,
-);
-
-$brand1_1: #f4925c;
-$brand1_2: #f9b28c;
-$brand1_3: #f8d1be;
-$brand1_4: #1c4a6c;
-$brand1_5: #667d96;
-$brand1_6: #aab5c3;
-
 @import "mixins";
 
-
 html, body {
+    font-family: theme__type( family );
+    font-weight: theme__type( weight );
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
+
+/*  Header and Footer | Document  */
 .horz__bar {
+    background: theme__day( info );
+    border: 1px solid theme__day( back );
+    min-height: 76px;
+    position: fixed;
     text-align: center;
     width: 100%;
-    min-height: 76px;
-    border: 1px solid $brand1_6;
-    position: fixed;
-    background: map-get($theme_light , info );
 }
 header {
     @extend .horz__bar;
     top: 0;
-}
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax( 256px, calc(50% - 4px) ));
-    grid-gap: 8px;
-    justify-items: center;
-    margin: 80px 0;
-    min-height: 120vh;
-    section.acx-card__quad {
-        background-color: red;
-        border: 1px solid $brand1_6;
-        border-radius: 6px;
-        margin: 4px;
-        padding: 4px;
-        width: 98%;
-        clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
-        width: 100%;
+    h1 {
+        @extend .h-text__caption;
+        font-size: 2em;
+        margin: 30px;
+        span {
+            color: theme__day( primary );
+        }
+    }
+    @include desktop__mq {
+        text-align: left;
     }
 }
-
 footer {
     @extend .horz__bar;
     bottom: 0px;
+    text-align: center;
 }
 
-@media screen and (max-width: 600px){
 main {
-    grid-template-columns: 1fr;
-}
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax( 256px, 96% ));
+    justify-content: space-around;
+    justify-items: center;
+    margin: 112px 0;
+    min-height: 120vh;
+    @include tablet__mq {
+        grid-template-columns: repeat(auto-fill, 46%);
+    }
+    @include desktop__mq {
+        grid-template-columns: repeat(auto-fill, 22%);
+    }
 }
 
-@media only screen and (max-width:48em)
-{
-/* small */
+/*  Cards  */
+article.acx-card__sextuple {
+    border: 1px solid theme__day( success );
+    border-radius: 6px;
+    margin: 8px; padding: 0;
+    min-height: 276px;
+    width: 100%;
+    aside {
+        padding: 4px;
+        background-color: theme__day( caption );
+        h2 {
+            @extend .h-text__caption;
+            font-size: 1.2em;
+            margin: 6px 0; padding: 4px;
+        }
+    }
+    > section {
+        margin: 8px; padding: 8px;
+    }
 }
 
-@media only screen and (min-width:48.1em) and (max-width:62em)
-{
-/* med */
+/*  Call to Action  */
+.cta__click {
+    @extend .h-text__caption;
+    background-color: theme__day( primary );
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    margin: 12px auto;
+    text-align: center;
 }
 
-@media only screen and (min-width:62.1em)
-{
-/* lg */
+/*  Helpers  */
+.h-image__image--cover {
+    background-image: url(https://neodigm.github.io/accucontax/dist/avatar.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.h-text__caption {
+    color: #fff;
+    font-weight: 100;
 }

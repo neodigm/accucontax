@@ -1,3 +1,4 @@
+/*  Responsive Themes  */
 body::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -12,67 +13,120 @@ body::-webkit-scrollbar-thumb {
 }
 
 html, body {
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
+/*  Header and Footer | Document  */
 .horz__bar, header, footer {
+  background: #1c4a6c;
+  border: 1px solid;
+  min-height: 76px;
+  position: fixed;
   text-align: center;
   width: 100%;
-  min-height: 76px;
-  border: 1px solid #aab5c3;
-  position: fixed;
-  background: #1c4a6c;
 }
 
 header {
   top: 0;
 }
 
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(256px, calc(50% - 4px)))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(256px, calc(50% - 4px)));
-  grid-gap: 8px;
-  justify-items: center;
-  margin: 80px 0;
-  min-height: 120vh;
+header h1 {
+  font-size: 2em;
+  margin: 30px;
 }
 
-main section.acx-card__quad {
-  background-color: red;
-  border: 1px solid #aab5c3;
-  border-radius: 6px;
-  margin: 4px;
-  padding: 4px;
-  width: 98%;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
-          clip-path: polygon(0 0, 100% 0%, 100% 17%, 0 26%);
-  width: 100%;
+header h1 span {
+  color: #f4925c;
+}
+
+@media only screen and (min-width: 62.1em) {
+  header {
+    text-align: left;
+  }
 }
 
 footer {
   bottom: 0px;
+  text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-  main {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 48em) {
-  /* small */
+main {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 8px;
+  -ms-grid-columns: (minmax(256px, 96%))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(256px, 96%));
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  justify-items: center;
+  margin: 112px 0;
+  min-height: 120vh;
 }
 
 @media only screen and (min-width: 48.1em) and (max-width: 62em) {
-  /* med */
+  main {
+    -ms-grid-columns: (46%)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 46%);
+  }
 }
 
 @media only screen and (min-width: 62.1em) {
-  /* lg */
+  main {
+    -ms-grid-columns: (22%)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 22%);
+  }
+}
+
+/*  Cards  */
+article.acx-card__sextuple {
+  border: 1px solid #aab5c3;
+  border-radius: 6px;
+  margin: 8px;
+  padding: 0;
+  min-height: 276px;
+  width: 100%;
+}
+
+article.acx-card__sextuple aside {
+  padding: 4px;
+  background-color: #667d96;
+}
+
+article.acx-card__sextuple aside h2 {
+  font-size: 1.2em;
+  margin: 6px 0;
+  padding: 4px;
+}
+
+article.acx-card__sextuple > section {
+  margin: 8px;
+  padding: 8px;
+}
+
+/*  Call to Action  */
+.cta__click {
+  background-color: #f4925c;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  margin: 12px auto;
+  text-align: center;
+}
+
+/*  Helpers  */
+.h-image__image--cover {
+  background-image: url(https://neodigm.github.io/accucontax/dist/avatar.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.h-text__caption, header h1, article.acx-card__sextuple aside h2, .cta__click {
+  color: #fff;
+  font-weight: 100;
 }
 /*# sourceMappingURL=ax.css.map */
