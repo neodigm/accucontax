@@ -4,7 +4,7 @@ $theme_light: (
     secondary: #f9b28c,
     accent: #f8d1be,
     info: #1c4a6c,
-    warning: #667d96,
+    caption: #667d96,
     success: #aab5c3,
     error: #ee2222,
 );
@@ -15,7 +15,7 @@ $theme_type: (
     weight: 300
 );
 
-/*    */
+/*  Responsive Themes  */
 @function theme__day( $color ){
     @return map-get($theme_light, $color );
 }
