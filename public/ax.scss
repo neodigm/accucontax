@@ -28,7 +28,7 @@ header {
             color: theme__day( primary );
         }
     }
-    @include desktop__mq {
+    @include media__query--desktop {
         text-align: left;
     }
 }
@@ -41,16 +41,16 @@ footer {
 main {
     display: grid;
     grid-gap: 8px;
-    grid-template-columns: repeat(auto-fill, minmax( 256px, 96% ));
+    grid-template-columns: repeat( auto-fill, minmax( 256px, 96% ));
     justify-content: space-around;
     justify-items: center;
     margin: 112px 0;
     min-height: 120vh;
     @include tablet__mq {
-        grid-template-columns: repeat(auto-fill, 46%);
+        grid-template-columns: repeat( auto-fill, 46%);
     }
-    @include desktop__mq {
-        grid-template-columns: repeat(auto-fill, 22%);
+    @include media__query--desktop {
+        grid-template-columns: repeat( auto-fill, 22%);
     }
 }
 
@@ -95,6 +95,11 @@ article.acx-card__sextuple {
 }
 
 .h-text__caption {
+    color: #fff;
+    font-weight: 100;
+}
+
+.h-form__input {
     color: #fff;
     font-weight: 100;
 }

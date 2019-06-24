@@ -24,7 +24,7 @@ $theme_type: (
     @return map-get($theme_type, $font );
 }
 
-@mixin desktop__mq {
+@mixin media__query--desktop {
     @media only screen and (min-width: 62.1em) {
         @content;
     }
