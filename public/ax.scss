@@ -100,6 +100,52 @@ article.acx-card__sextuple {
 }
 
 .h-form__input {
-    color: #fff;
-    font-weight: 100;
+    display: block;
+    font-size: 16px;
+    color:  theme__day( info );
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border: 1px solid  theme__day( success );
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+    border-radius: .5em;
+    background-color: #fff;
+}
+
+.h-form__select {
+    @include mix__form--select;
+}
+.h-form__select:hover {
+    border-color: theme__day( back ); 
+}
+.h-form__select:focus {
+    border-color: #888888;
+    box-shadow: 0 0 1px 3px rgba(158, 118, 119, .6);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: theme__day( back ); 
+    outline: none;
+}
+.h-form__grid--icons {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat( auto-fill, 68% 24%);
+    justify-content: space-around;
+    justify-items: center;
+    a {
+        display: inline-block;
+        margin: 12px 2px;
+    }
+    svg {
+        cursor: pointer;
+        fill: theme__day( caption ); 
+    }
+    svg.js-delete {
+        fill: theme__day( error ); 
+    }
+    svg:hover {
+        fill: theme__day( info ); 
+    }
 }
