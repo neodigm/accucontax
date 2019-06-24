@@ -46,7 +46,7 @@ main {
     justify-items: center;
     margin: 112px 0;
     min-height: 120vh;
-    @include tablet__mq {
+    @include media__query--tablet {
         grid-template-columns: repeat( auto-fill, 46%);
     }
     @include media__query--desktop {

@@ -29,13 +29,8 @@ $theme_type: (
         @content;
     }
 }
-@mixin tablet__mq {
+@mixin media__query--tablet {
     @media only screen and (min-width:48.1em) and (max-width:62em) {
-        @content;
-    }
-}
-@mixin mobile__mq {
-    @media only screen and (max-width:48em) {
         @content;
     }
 }
