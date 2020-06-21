@@ -23,6 +23,8 @@
     "https://machvive.com/",
     "https://www.arcanus55.com/",
     "https://repl.it/@neodigm",
-    "https://twitter.com/neodigm24"]
+    "https://twitter.com/neodigm24",
+    "https://hub.docker.com/u/neodigm",
+    "https://www.w3.org/users/123844"]
   }
 </script>
