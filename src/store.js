@@ -9,7 +9,7 @@ export default new Vuex.Store({
       { comp: 'CardName', name: 'Salutation', required: false, value:"" },
       { comp: 'CardName', name: 'First Name', required: true, value:"" },
       { comp: 'CardName', name: 'Last Name', required: true, value:"" },
-      { comp: 'CardName', name: 'Company', required: false, value:"" },
+      { comp: 'CardName', name: 'Company', required: true, value:"" },
 
       { comp: 'CardPhone', name: 'Phone Number', required: false, value:"" },
       { comp: 'CardPhone', name: 'Extension', required: false, value:"" },
