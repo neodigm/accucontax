@@ -7,6 +7,53 @@ Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 
 A Vue.js and Material Design ⚡ SPA
 
+```javascript
+<script>
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
+import CardAvatar from './components/CardAvatar.vue';
+import CardName from './components/CardName.vue';
+import CardAddBilling from './components/CardAddBilling.vue';
+import CardAddMailing from './components/CardAddMailing.vue';
+import CardEmail from './components/CardEmail.vue';
+import CardPhone from './components/CardPhone.vue';
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Footer,
+    CardAvatar,
+    CardName,
+    CardAddBilling,
+    CardAddMailing,
+    CardEmail,
+    CardPhone,
+  },
+  data() {
+    return {};
+  },
+  computed: {
+    appFields() {
+      return this.$store.state.appFields;
+    },
+    playSound() {
+      return this.$store.state.playSound;
+    },
+  },
+  watch: {
+    playSound() {
+      this.playAudioFile(this.playSound);
+    },
+  },
+  methods: {
+    setSound() {
+      this.$store.commit('setSound', 4);
+    },
+  },
+};
+</script>
+```
+
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
 [🚀 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf) |
