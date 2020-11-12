@@ -7,6 +7,12 @@ Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 
 A Vue.js and Material Design ⚡ SPA
 
+<p align="center">
+  <a target="_blank" href="https://neodigm.github.io/accucontax/dist/">
+  <img src="https://neodigm.github.io/accucontax/vuetify_material_scott_krause.webp" title="Vue.js and Material Design">
+  </a>
+</p>
+
 ```javascript
 <script>
 import Header from './components/Header.vue';
