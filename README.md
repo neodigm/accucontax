@@ -12,6 +12,8 @@ A Vue.js and Material Design ⚡ SPA
   </a>
 </p>
 
+<details>
+    <summary>JavaScript</summary>
 ```javascript
 <script>
 import Header from './components/Header.vue';
@@ -58,6 +60,7 @@ export default {
 };
 </script>
 ```
+</details>
 
 #
 [Portfolio Blog](https://www.theScottKrause.com) |
