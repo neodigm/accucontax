@@ -4,7 +4,7 @@ AccuLynx Contact Landing Page with Audio
 
 Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 
-A Vue.js and Material Design ⚡ SPA
+A sample Vue.js and Material Design ⚡ SPA with immersive sound provided by the Web Audio API.
 
 <p align="center">
   <a target="_blank" href="https://neodigm.github.io/accucontax/dist/">
