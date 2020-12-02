@@ -6,7 +6,9 @@ Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 
 A sample Vue.js and Material Design ⚡ SPA with immersive sound provided by the Web Audio API.
 
-Utilizing the observable power of Vue.js and the fluid [Vuetify](https://vuetifyjs.com/en/introduction/roadmap/) Material Design system you can add unlimited phone numbers and addresses.
+Utilizing the observable power of Vue.js and the fluid [Vuetify](https://vuetifyjs.com/en/introduction/roadmap/) Material Design system a user can easily manage multiple addresses, unlimited phone numbers, and prioritize email addresses.
+
+Quality is assured with integrated Cypress end to end testing.
 
 <p align="center">
   <a target="_blank" href="https://neodigm.github.io/accucontax/dist/">
