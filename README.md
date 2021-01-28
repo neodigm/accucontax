@@ -22,12 +22,22 @@ Quality is assured with integrated Cypress end to end testing.
 
 <details>
     <summary>What is Vuetify?</summary>
+<p align="center">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvv.svg" width="44" alt="Renaissance Man Weaponeered Poetry">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvu.svg" width="44" alt="Clockwork Clever Tricknology">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="44" alt="Vivid Vector Skulduggery">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvt.svg" width="33" alt="Vivid Vector indelible">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvi.svg" width="33" alt="bloom with the fragrance of mischief">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvf.svg" width="33" alt="Vivid Vector Preeminent">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Vivid Vector Preeminent">
+<br>
+</p>
 Vuetify is a complete UI framework built on top of Vue.js. The goal of the project is to provide developers with the tools they need to build rich and engaging user experiences. Unlike other frameworks, Vuetify is designed from the ground up to be easy to learn and rewarding to master with hundreds of carefully crafted components from the Material Design specification.
 </details>
 
 <details>
     <summary>What is Cypress end 2 end testing?</summary>
-  <p align="center">
+<p align="center">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvc.svg" width="33" alt="Renaissance Man Weaponeered Poetry">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Clockwork Clever Tricknology">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvp.svg" width="33" alt="Vivid Vector Skulduggery">
@@ -40,6 +50,7 @@ Vuetify is a complete UI framework built on top of Vue.js. The goal of the proje
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vv2.svg" width="33" alt="A technically superior interior wrapped in a sophisticated exterior.">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="A meticulous merger of form and function.">
 <br>
+</p>
 The Cypress architectural improvements unlock the ability to do TDD with full end-to-end tests for the very first time. Cypress has been built so that testing and development can happen simultaneously. You can develop faster while driving the entire dev process with tests because: you can see your application; you still have access to the developer tools; and changes are reflected in real time. The end result is that you will have developed more, your code will be better, and it will be completely tested.
 </details>
 
