@@ -29,7 +29,7 @@ Quality is assured with integrated Cypress end to end testing.
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvt.svg" width="33" alt="Vivid Vector indelible">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvi.svg" width="33" alt="bloom with the fragrance of mischief">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvf.svg" width="33" alt="Vivid Vector Preeminent">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Vivid Vector Preeminent">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="🦄 AWS Amplify && GraphQL && TypeScript && Go  🍰">
 <br>
 </p>
 Vuetify is a complete UI framework built on top of Vue.js. The goal of the project is to provide developers with the tools they need to build rich and engaging user experiences. Unlike other frameworks, Vuetify is designed from the ground up to be easy to learn and rewarding to master with hundreds of carefully crafted components from the Material Design specification.
