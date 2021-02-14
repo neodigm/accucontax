@@ -25,7 +25,7 @@ Quality is assured with integrated Cypress end to end testing.
 <p align="center">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvv.svg" width="33" alt="Renaissance Man Weaponeered Poetry">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvu.svg" width="33" alt="Clockwork Clever Tricknology">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="Vivid Vector Skulduggery">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="✨ Blender Three.js 🍭 glTF UV Mapping 👁️">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvt.svg" width="33" alt="Vivid Vector indelible">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvi.svg" width="33" alt="bloom with the fragrance of mischief">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvf.svg" width="33" alt="👁️D3 Parallax Three.js Greensock && WebGL 🍭">
