@@ -22,6 +22,7 @@ Quality is assured with integrated Cypress end to end testing.
 
 <details>
     <summary>What is Vuetify?</summary>
+  <br>
 <p align="center">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvv.svg" width="33" alt="Renaissance Man Weaponeered Poetry">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvu.svg" width="33" alt="Clockwork Clever Tricknology">
@@ -37,6 +38,7 @@ Vuetify is a complete UI framework built on top of Vue.js. The goal of the proje
 
 <details>
     <summary>What is Cypress end 2 end testing?</summary>
+  <br>
 <p align="center">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvc.svg" width="33" alt="Renaissance Man Weaponeered Poetry">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Clockwork Clever Tricknology">
