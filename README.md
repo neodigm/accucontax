@@ -1,6 +1,6 @@
 [![License: BSD](https://badgen.net/badge/license/BSD/orange)](https://opensource.org/licenses/BSD-3-Clause)
 ---
-AccuLynx Contact Landing Page with Web Audio in [TypeScript](https://thescottkrause.com/tags/javascript/)
+AccuLynx Contact Landing Page with Web Audio in [TypeScript](https://www.thescottkrause.com/tags/javascript/)
 
 Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 
