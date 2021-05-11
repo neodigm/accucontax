@@ -16,7 +16,7 @@ Quality is assured with integrated Cypress end to end testing.
 
 <p align="center">
   <a target="_blank" href="https://neodigm.github.io/accucontax/dist/">
-  <img src="https://neodigm.github.io/accucontax/vuetify_material_scott_krause.webp" title="Vue.js and Material Design ✨ Blender Three.js 🍭 glTF UV Mapping 👁️">
+  <img src="https://neodigm.github.io/accucontax/vuetify_material_scott_krause.webp" title="Vue.js and Material Design ✨ Blender Three.js 🍭 glTF UV Mapping 👁️ Three.js 🚀 TypeScript 🍭 WASM ✨ Go">
   </a>
 </p>
 
