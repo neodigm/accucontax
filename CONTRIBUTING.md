@@ -79,7 +79,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
   - Can you reliably reproduce the issue? And can you also reproduce it with older versions?
 
 <!-- omit in toc -->
-#### How Do I Submit a Good Bug Report?
+#### How Do I Submit a Bug Report?
 
 > You must never report security related issues, vulnerabilities or bugs to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <neodigm.ux@gmail.com>.
 <!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
