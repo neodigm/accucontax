@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Contributing to Vivid Vector Alphabet
+# Contributing to AccuContax
 
 First off, thanks for taking the time to contribute! 🦄
 
