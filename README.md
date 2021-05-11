@@ -48,7 +48,7 @@ Vuetify is a complete UI framework built on top of Vue.js. The goal of the proje
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="33" alt="Vivid Creative ⚡ Business ⚡ Technical Agility Preeminent">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="33" alt="Vivid ✨ Blender Three.js 🍭 glTF UV Mapping 👁️">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="A bare-knuckle bucket of does">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="A meticulous merger of form and function.">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="Three.js 🚀 TypeScript 🍭 WASM ✨ Go">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vv2.svg" width="33" alt="A technically superior interior wrapped in a sophisticated exterior.">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="A meticulous merger of form and function.">
 <br>
