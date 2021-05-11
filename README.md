@@ -6,7 +6,7 @@ Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 
 Simulate Mobile Phone [AccuContax](https://www.thescottkrause.com/utils/neodigm55-mobile-resizer/?vp=m&uri=https://neodigm.github.io/accucontax/dist/) in your browser.
 
-Simulate Tablet Phone [AccuContax](https://thescottkrause.com/utils/neodigm55-mobile-resizer/?vp=t&uri=https://neodigm.github.io/accucontax/dist/) in your browser.
+Simulate Tablet Phone [AccuContax](https://www.thescottkrause.com/utils/neodigm55-mobile-resizer/?vp=t&uri=https://neodigm.github.io/accucontax/dist/) in your browser.
 
 A sample Vue.js and Material Design ⚡ SPA with immersive sound provided by the Web Audio API.
 
