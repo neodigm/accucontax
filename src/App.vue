@@ -60,7 +60,7 @@ export default {
   },
   data() {
     return {
-      //
+      //. DataVis 🚀 Micro Frontend 🚀 PWA
     };
   },
   computed: {
