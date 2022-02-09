@@ -1,5 +1,5 @@
 
-AccuLynx Contact Landing Page with Web Audio in [TypeScript](https://www.thescottkrause.com/tags/javascript/)
+AccuLynx Contact Landing Page with Web Audio in [JavaScript](https://www.thescottkrause.com/tags/javascript/) and Vuetify [Vuetify](https://thescottkrause.com/emerging_tech/curated-vue-links/)
 
 Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 
