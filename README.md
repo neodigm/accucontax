@@ -111,7 +111,7 @@ export default {
 [Gists](https://gist.github.com/neodigm?direction=asc&sort=created) |
 [Salesforce](https://trailblazer.me/id/skrause) |
 [Code Pen](https://codepen.io/neodigm24) |
-[Machvive](https://machvive.com/) |
+[Machvive](https://www.machfivemarketing.com/accelerators/google_analytics_ga4_migration/) |
 [Arcanus 55](https://www.arcanus55.com/) |
 [Repl](https://repl.it/@neodigm) |
 [Twitter](https://twitter.com/neodigm24) |
@@ -128,7 +128,6 @@ export default {
   </a>
 </p>
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/neodigm/vue_voyagers)
 <p align="center">
   <a target="_blank" href="https://www.thescottkrause.com">
     <img src="https://neodigm.github.io/pan-fried-monkey-fisticuffs/thescottkrause_contact_card.png" title="TypeScript ⚡ WASM ✨ NestJS">
