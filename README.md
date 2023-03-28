@@ -1,4 +1,6 @@
 
+A sample Vue.js and Material Design ⚡ SPA with immersive sound provided by the Web Audio API.
+
 AccuLynx Contact Landing Page with Web Audio in [JavaScript](https://www.thescottkrause.com/tags/javascript/) and [Vuetify](https://thescottkrause.com/emerging_tech/curated-vue-links/)
 
 Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
@@ -6,8 +8,6 @@ Open [AccuContax](https://neodigm.github.io/accucontax/dist/) in your browser.
 Simulate Mobile Phone [AccuContax](https://www.thescottkrause.com/utils/neodigm55-mobile-resizer/?vp=m&uri=https://neodigm.github.io/accucontax/dist/) in your browser.
 
 Simulate Tablet Phone [AccuContax](https://www.thescottkrause.com/utils/neodigm55-mobile-resizer/?vp=t&uri=https://neodigm.github.io/accucontax/dist/) in your browser.
-
-A sample Vue.js and Material Design ⚡ SPA with immersive sound provided by the Web Audio API.
 
 Utilizing the observable power of Vue.js and the fluid [Vuetify](https://vuetifyjs.com/en/introduction/roadmap/) Material Design system a user can easily manage multiple addresses, unlimited phone numbers, and prioritize email addresses.
 
@@ -39,7 +39,7 @@ Vuetify is a complete UI framework built on top of Vue.js. The goal of the proje
     <summary>What is Cypress end 2 end testing?</summary>
   <br>
 <p align="center">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvc.svg" width="33" alt="Renaissance Man Weaponeered Poetry">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvc.svg" width="33" alt="Interactive Infographics UX PWA Typescript Svelte ThreeJS Vue ✨">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Clockwork Clever Tricknology DataVis 🚀 Micro Frontend 🚀 PWA">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvp.svg" width="33" alt="Vivid Vector Skulduggery 👁️ UX ⚡ Vue.js and WebGL (WASM) 🍭">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvr.svg" width="33" alt="Vivid Three.js 🚀 TypeScript 🍭 WASM ✨ Go indelible">
