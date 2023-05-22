@@ -23,7 +23,7 @@ Quality is assured with integrated Cypress end to end testing.
     <summary>What is Vuetify?</summary>
   <br>
 <p align="center">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvv.svg" width="33" alt="Renaissance Man Weaponeered Poetry">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvv.svg" width="33" alt="Vuetify Renaissance Man Weaponeered Poetry">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvu.svg" width="33" alt="Clockwork Clever Tricknology">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="✨ Blender Three.js 🍭 glTF UV Mapping 👁️">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvt.svg" width="33" alt="Vivid ✨ Blender Three.js 🍭 glTF UV Mapping 👁️ indelible">
@@ -41,7 +41,7 @@ Vuetify is a complete UI framework built on top of Vue.js. The goal of the proje
 <p align="center">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvc.svg" width="33" alt="Interactive Infographics UX PWA Typescript Svelte ThreeJS Vue ✨">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Clockwork Clever Tricknology DataVis 🚀 Micro Frontend 🚀 PWA">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvp.svg" width="33" alt="Vivid Vector Skulduggery 👁️ UX ⚡ Vue.js and WebGL (WASM) 🍭">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvp.svg" width="33" alt="Vivid Shopify 👁️ UX ⚡ Vue.js and WebGL (WASM) 🍭">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvr.svg" width="33" alt="Vivid Three.js 🚀 TypeScript 🍭 WASM ✨ Go indelible">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="bloom with the fragrance of mischief">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="33" alt="Vivid Creative ⚡ Business ⚡ Technical Agility Preeminent">
@@ -107,6 +107,7 @@ export default {
 [🦄 Résumé](https://thescottkrause.com/Arcanus_Scott_C_Krause_2023.pdf) |
 [UX micro-library](https://thescottkrause.com/emerging_tech/neodigm55_ux_library/) |
 [PWA WASM](https://www.thescottkrause.com/emerging_tech/curated-pwa-links/) |
+[DevToys](https://www.thescottkrause.com/devtoys/) |
 [Neodigm UX Wiki](https://github.com/arcanus55/neodigm55/wiki/Cheat-Sheet) | 
 [NPM](https://www.npmjs.com/~neodigm) |
 [Github](https://github.com/neodigm) |
@@ -131,4 +132,3 @@ export default {
     <img src="https://neodigm.github.io/pan-fried-monkey-fisticuffs/thescottkrause_contact_card.png" title="UX PWA TypeScript ⚡ WASM ✨ Vue.js 🍭 ThreeJS" alt="Interactive Infographic">
   </a>
 </p>
-
