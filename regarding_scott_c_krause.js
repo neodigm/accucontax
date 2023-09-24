@@ -15,7 +15,7 @@
     "url": "https://www.theScottKrause.com",
     "sameAs" : [ "https://github.com/neodigm",
 "https://www.theScottKrause.com/",
-"https://thescottkrause.com/Arcanus_Scott_C_Krause_2020.pdf",
+"https://thescottkrause.com/Arcanus_Scott_C_Krause_2023.pdf",
 "https://thescottkrause.com/d3_datavis_skills.html",
 "https://gist.github.com/neodigm",
 "https://www.npmjs.com/~neodigm",
@@ -24,7 +24,7 @@
 "https://codepen.io/neodigm24",
 "https://machvive.com/",
 "https://www.arcanus55.com/",
-"https://repl.it/@neodigm",
+"https://www.WebToolToys.com/",
 "https://twitter.com/neodigm24",
 "https://hub.docker.com/u/neodigm",
 "https://www.w3.org/users/123844"]
