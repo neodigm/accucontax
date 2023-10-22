@@ -19,6 +19,7 @@
 "https://thescottkrause.com/Arcanus_Scott_C_Krause_2023.pdf",
 "https://thescottkrause.com/d3_datavis_skills.html",
 "https://gist.github.com/neodigm",
+"https://github.com/arcanus55/neodigm55/wiki",
 "https://www.npmjs.com/~neodigm",
 "https://www.linkedin.com/in/neodigm24/",
 "https://trailblazer.me/id/skrause",
