@@ -24,7 +24,7 @@ Quality is assured with integrated Cypress end to end testing.
   <br>
 <p align="center">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvv.svg" width="33" alt="Vuetify Renaissance Man Weaponeered Poetry">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvu.svg" width="33" alt="Clockwork Clever Tricknology">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvu.svg" width="33" alt="Shopify PWA Polaris Liquid GraphQL 🍭 AWS Fargate">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="✨ Blender Three.js 🍭 glTF UV Mapping 👁️">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvt.svg" width="33" alt="Vivid ✨ Blender Three.js 🍭 glTF UV Mapping 👁️ indelible">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvi.svg" width="33" alt="bloom with the fragrance of mischief">
@@ -40,7 +40,7 @@ Vuetify is a complete UI framework built on top of Vue.js. The goal of the proje
   <br>
 <p align="center">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvc.svg" width="33" alt="Interactive Infographics UX PWA Typescript Svelte ThreeJS Vue ✨">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Clockwork Clever Tricknology DataVis 🚀 Micro Frontend 🚀 PWA">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Shopify PWA Polaris Liquid GraphQL 🍭 AWS Fargate DataVis 🚀 Micro Frontend 🚀 PWA">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvp.svg" width="33" alt="Vivid Shopify 👁️ UX ⚡ Vue.js and WebGL (WASM) 🍭">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvr.svg" width="33" alt="Vivid Three.js 🚀 TypeScript 🍭 WASM ✨ Go indelible">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="bloom with the fragrance of mischief">
