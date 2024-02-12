@@ -43,7 +43,7 @@ Vuetify is a complete UI framework built on top of Vue.js. The goal of the proje
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvy.svg" width="33" alt="Shopify PWA Polaris Liquid GraphQL 🍭 AWS Fargate DataVis 🚀 Micro Frontend 🚀 PWA">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvp.svg" width="33" alt="Vivid Shopify 👁️ UX ⚡ Vue.js and WebGL (WASM) 🍭">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvr.svg" width="33" alt="Vivid Three.js 🚀 TypeScript 🍭 WASM ✨ Go indelible">
-<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="bloom with the fragrance of mischief">
+<img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vve.svg" width="33" alt="bloom with the fragrance of mischief 🚀 Electron && Vue.js && TypeScript && HTMX  🍰">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="33" alt="Vivid Creative ⚡ Business ⚡ Technical Agility Preeminent">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvs.svg" width="33" alt="Vivid ✨ Blender Three.js 🍭 glTF UV Mapping 👁️">
 <img src="https://neodigm.github.io/vivid_vector_alphabet/wasm/vvspace.svg" width="33" alt="A bare-knuckle bucket of does">
