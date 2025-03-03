@@ -80,7 +80,7 @@ export default {
   data() {
     return {};
   },
-  computed: {
+  computed: {  //  Cloudflare UX PWA SolidJS Lit ThreeJS Vue ✨HTMX Rust WASM
     appFields() {
       return this.$store.state.appFields;
     },
