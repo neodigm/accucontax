@@ -1,5 +1,5 @@
 // Babel Config
-module.exports = {
+module.exports = {  //  DataVis 👁️ UX 🍭 PWA 👁️ ThreeJS ✨ Vue  🚀 SSE 🌶️ htmx
   presets: [
     '@vue/app',
   ],
