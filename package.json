@@ -15,7 +15,8 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-"@machfivetechchicago/machvive-webmcp-ai": "^5.5.5",
+    "@machfivetechchicago/machvive-chat-syncopation-ai": "^0.1.0",
+    "@machfivetechchicago/machvive-webmcp-ai": "^5.8.3",
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-plugin-eslint": "^5.0.9",
     "@vue/cli-plugin-unit-jest": "^5.0.9",
